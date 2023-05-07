@@ -1,0 +1,44 @@
+.container {
+  margin-top: 300px;
+  padding: 10px;
+  background-color: #999;
+  border: 5px dotted #333;
+}
+
+.container-fluid {
+  border: 1px solid red;
+  background-repeat: no-repeat;
+}
+
+
+.container-sm {
+  margin-bottom: 30px;
+  border: 2px solid blue;
+}
+
+.container-md {
+  margin-bottom: 30px;
+  border: 2px solid yellow;
+}
+
+.container-lg {
+  margin-bottom: 30px;
+  border: 2px solid #999;
+}
+
+.row {
+  border: 5px solid purple;
+  height: auto;
+  padding: 5px;
+  margin: 0;
+}
+
+.col, .col-4, .col-8, .col-2, .col-1, .col-11 {
+  border: 1px solid red;
+  padding: 5px;
+  height: 100%;
+}
+
+#largura-limitada {
+  max-width: 500px;
+}
